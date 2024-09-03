@@ -3,8 +3,10 @@ rj = float(36.67866)
 mg = float(29.22988)
 es = float(27.16548)
 out = float(19.84953)
+
 total = float(sp + rj + mg + es + out)
 print("Valor total:", total)
+
 psp = ((sp/total)*100)
 prj = ((rj/total)*100)
 pmg = ((mg/total)*100)
